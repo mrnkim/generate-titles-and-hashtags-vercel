@@ -76,14 +76,6 @@ export function GenerateTitlesAndHashtags({ index, videoId, refetchVideos }) {
       <h1 className="GenerateTitlesAndHashtags__appTitle">
         Generate Titles and Hashtags for Your Video
       </h1>
-      <VideoFileUploadForm
-        index={index}
-        refetchVideos={refetchVideos}
-        selectedFile={selectedFile}
-        setSelectedFile={setSelectedFile}
-        isFileUploading={isFileUploading}
-        setIsFileUploading={setIsFileUploading}
-      />
       {!video && (
         <div className="GenerateTitlesAndHashtags__uploadMessageWrapper">
           <img
