@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const SERVER_BASE_URL = new URL(
-  // "https://summarize-youtube-video-vercel-server.vercel.app/"
-  "http://localhost:4001"
+  "https://generate-titles-and-hashtags-vercel-server.vercel.app/"
+  // "http://localhost:4001"
 );
 
 const apiConfig = {
