@@ -2,7 +2,6 @@ import { React, useState, useEffect } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import { Video } from "./Video";
 import { InputForm } from "./InputForm";
-import { VideoFileUploadForm } from "./VideoFileUploadForm";
 import { Result } from "./Result";
 import "./GenerateTitlesAndHashtags.css";
 import { useGetVideo } from "./apiHooks";
